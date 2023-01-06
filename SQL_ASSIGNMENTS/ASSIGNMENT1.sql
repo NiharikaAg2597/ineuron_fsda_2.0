@@ -123,13 +123,6 @@ END
 
 ---**************************************************************************************----
 
-
---6.  FIND OUT THE FINAL PROFIT AND PUT IT IN COLUMN FOR EVERY ORDER ID.
-
-
-SELECT SUM(PROFIT) AS T0TAL_PROFIT 
-FROM NK_SALES_ASSIGNMENT;
-
 /*
 6. Create a new column called process days and calculate how many days it takes
 for each order id to process from the order to its shipment.
