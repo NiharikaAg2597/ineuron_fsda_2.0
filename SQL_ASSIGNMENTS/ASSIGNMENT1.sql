@@ -54,10 +54,7 @@ create or replace file format my_csv_format
   alter table NK_SALES_ASSIGNMENT
   add primary key (order_id);
   
-  select 
-  year(order_date) as year_only
-  from NK_SALES_ASSIGNMENT;
-
+  
 --*********************************************************************************************-----
   
   --- 3. CHECK THE ORDER DATE AND SHIP DATE TYPE AND THINK IN WHICH DATA TYPE YOU HAVE TO CHANGE.
