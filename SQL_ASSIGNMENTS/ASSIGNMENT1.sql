@@ -44,7 +44,7 @@ create or replace file format my_csv_format
   empty_field_as_null = true
   FIELD_OPTIONALLY_ENCLOSED_BY = '0x22';
   
-  *********************************************************************************************
+  --*********************************************************************************************---
   
   --- 2. Change the Primary key to Order Id Column.
   
